@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 10px 14px;
+    color: green;
+}
+
+.logoHead{
+    color: blue;
+}
+
+.logoHead h3{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.headerContainer{
+    display: flex;
+    margin-top: 5px;
+    gap: 300px;
+}
+
+.leftSide{
+    text-align: left;
+    justify-content: center;
+    max-width: 40%;
+    margin-left: 50px;
+}
+.leftSide a{
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+    border-radius: 8px;
+    text-align: left;
+    margin-right: 25px;
+}
+
+.second{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin-left: 30px; */
+}
+
+.second .pic{
+    margin-left: 200px;
+    position: relative;
+    margin-right: 0;
+}
+
+.text{
+    margin-left: 0;
+    align-items: center;
+    justify-content: left;
+}
